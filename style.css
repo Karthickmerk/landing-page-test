@@ -97,8 +97,8 @@ a {
   background-image: url("./img/banner.jpg"); 
   height: 500px; 
   width: auto;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center;
+  background-repeat: no-repeat; 
   background-size: cover; 
 }
 
@@ -198,17 +198,16 @@ a {
 
 .contact-form{
 	display: flex;
-	/* background-color: #ff0000; */
 }
 .col-1{
 	flex-grow: auto;
-	/* background-color: #fa8080; */
+
 }
 
 .col-2{
 	background-image: url(./img/contact.jpg); 
-	background-position: center; /* Center the image */
-	background-repeat: no-repeat; /* Do not repeat the image */
+	background-position: center; 
+	background-repeat: no-repeat; 
 	background-size: cover; 
 	flex-grow: 4;
 	margin-right: 120px;
