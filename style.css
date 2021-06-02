@@ -1,0 +1,303 @@
+
+* {
+	box-sizing: border-box;
+}
+
+/* Utility classes */
+
+.container{
+	max-width: 1440px;
+	margin-top:150px;
+	margin-bottom:80px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0 3em;
+	font-size: 1.45em;
+	font-weight: 700;
+}
+
+.main-nav {
+	margin-top: 5px;
+    margin-right: 3em;
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+    text-transform: capitalize;
+	text-align: center;
+	display: block;
+}
+
+.main-nav a {
+	color: #000;
+	font-size: .99em;
+	font-weight: 600;
+}
+
+.main-nav a:hover {
+	color: #ff4a47;
+}
+
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	background-color: #fff;
+	max-width: 1440px;
+	margin: auto;
+}
+
+
+
+  .button {
+    cursor: pointer;
+    display: inline-block;
+    background: #ff0000;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin: 20px 0;
+    border: 0;
+  }
+  .button:hover {
+    transform: scale(0.98);
+  }
+
+/* Banner */
+
+
+.banner{
+  background-image: url("./img/banner.jpg"); 
+  height: 500px; 
+  width: auto;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; 
+}
+
+.hero-content{
+	padding-top: 130px;
+	padding-left: 300px;
+}
+.banner h4,
+.banner h1{
+	color: white;
+	font-weight:400;
+	margin: 0;
+}
+.banner h1{
+	font-weight:600;
+	font-size: 50px;
+}
+  
+.check-availability{
+	position: relative;
+	top: -280px;
+	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+}
+/* availability form */
+.check-availability form{
+	display: flex;
+	background-color: rgb(255, 255, 255);
+	padding: 50px;
+}
+
+
+.check-availability form input, 
+.check-availability form label,
+.check-availability form select
+ {
+    display:block;
+	margin-left: 20px;
+	padding: 20px 10px;
+	width: 200px;
+	font-size: 20px;
+}
+.check-availability form .button
+ {
+	margin-top: 75px;
+    margin-left: 15px;
+	height: 60px;
+	
+}
+
+
+
+/* expriences */
+
+
+#expriences{
+	margin-top:-200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#expriences  p{
+	font-size: 20px;
+	max-width: 700px;
+}
+
+/* expriences -> card  */
+
+.cards{
+	margin-top: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.card{
+	flex: 2;
+}
+
+.card-img{
+	max-width: 300px;
+	border-radius: 5px;
+}
+
+.card h3, 
+.card p
+{
+	display: block;
+}
+.card p{
+	color: #1d1d1d;
+}
+
+/* Contact Form */
+
+.serif-font{
+	font-family: serif !important; 
+}
+
+.contact-form{
+	display: flex;
+	/* background-color: #ff0000; */
+}
+.col-1{
+	flex-grow: auto;
+	/* background-color: #fa8080; */
+}
+
+.col-2{
+	background-image: url(./img/contact.jpg); 
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; 
+	flex-grow: 4;
+	margin-right: 120px;
+  }
+
+.col-1 form input,
+.col-1 form textarea
+{
+	width: 90%;
+	padding: 20px 20px 10px 10px;
+	margin: 20px 20px 10px 10px;
+	border: 1px solid rgb(73, 73, 73);
+	border-radius: 4px;
+	font-family: sans-serif;
+}
+
+  /* Media Queries */
+
+.button-gold{
+	background-image: linear-gradient(to right, #f5b86a , #fbd299);
+	color: black;
+	font-weight: 600;
+	margin: 10px;
+	display: block;
+	width: 180px;
+}
+.contact{
+	padding: 20px 0;
+
+}
+.tag{
+	border-left:6px solid burlywood ;
+	padding-left: 10px;
+}
+.contact-info{
+	float: left;
+}	
+.contact-info h4{
+	margin-left: 70px;
+	margin-right: 250px;
+	margin-bottom: 0px;
+}
+.contact-info p{
+	margin-left: 70px;
+	margin-right: 250px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	
+}
+
+.icon{
+	float: left;
+	width: 50px;
+	display: inline;
+ 	background-color: #ffe7c8;
+	border-radius: 50px;
+	margin-top: 20px;
+	
+}
+
+/* Footer */
+
+footer{
+	background-color: #061e50;
+	padding: 15px;
+	color: #fff;
+	text-align: center;
+}
+
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}

@@ -1,0 +1,101 @@
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+
+    .banner{
+        max-width: 600px;
+    }
+
+    .main-nav{
+        display: none;
+    }
+    .hero-content{
+        padding-top: 130px;
+	    padding-left: 50px;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+    .banner{
+        width: 992px;
+    }
+
+    .check-availability{
+        position: relative;
+        top:0px;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    }
+    .check-availability form{
+        display: flex;
+        flex-direction: column;
+        padding:0px auto;
+    }
+    .check-availability form input, 
+.check-availability form label,
+.check-availability form select
+ {
+	padding: 20px 10px;
+	width: 100%;
+	font-size: 20px;
+}
+.check-availability form .button
+ {
+	text-align: center;
+	
+}
+
+#expriences{
+	margin-top:0px;
+	text-align: center;
+}
+
+#expriences p{
+	max-width: 1000px;
+    text-align: center;
+
+}
+.cards{
+	padding: 10px;
+}
+.col-2{
+	display: none;
+  }
+
+.col-1 form input,
+.col-1 form textarea
+{
+	width: 80%;
+	padding: 10;
+	margin:10px 20px;
+	border: 1px solid rgb(73, 73, 73);
+	border-radius: 4px;
+	font-family: sans-serif;
+}
+.serif-font{
+    text-align: center;
+}
+
+.col-1 p{
+    text-align: center;
+}
+.button-gold{
+	background-image: linear-gradient(to right, #f5b86a , #fbd299);
+	color: black;
+	font-weight: 600;
+	margin: auto;
+	display: block;
+	width: 30%;
+    text-align: center;
+}
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
